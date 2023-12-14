@@ -54,7 +54,7 @@ func (app *App) Start() {
 }
 
 func (app *App) Stop() {
-	// testing
+	// tes
 	app.Logger.Infow("source controller shutdown initiating")
 	timeoutContext, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
